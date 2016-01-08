@@ -5,21 +5,71 @@
   color: #A8C093;
 }
 
-h1, h2 {
-  font-family: Papyrus;
-}
-
 body {
-  background-color: pink;
+  background-color: #ffffe5;
+  max-width: 888px;
+  margin: 0 auto;
 }
 
 #footer /*this means footer is an id*/{
   text-align: right;
   border-top: 0.5px solid black;
+  padding-top: 10px;
 }
 
 #header {
   border-bottom: 0.5px solid black;
-  padding-bottom: 3px;
-  color:#A8C093
+  padding-bottom: 20px;
+}
+
+#logo {
+  font-family: 'Minion Pro', serif;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 888px;
+  top: 10px;
+}
+
+#navigation {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#navigation li {
+  font-family: 'Minion Pro', serif;
+  font-size: 20px;
+  display: block;
+  width: auto;
+  position: absolute;
+  text-align: center;
+}
+
+#navigation #nav_link1 {
+  left: 10%;
+}
+
+#navigation #nav_link2 {
+  left: 25%;
+}
+
+#navigation #nav_link3 {
+  right: 25%;
+}
+
+#navigation #nav_link4 {
+  right: 10%;
+}
+
+#logo a {
+  color: #f6546a;
+}
+
+body a {
+  text-decoration: none;
+  color: #00acc8
 }

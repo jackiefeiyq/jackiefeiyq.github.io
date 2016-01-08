@@ -1,0 +1,24 @@
+.test {
+  font-family: 'Bradley Hand';
+  text-align: center;
+  font-size: 25px;
+  color: #A8C093;
+}
+
+h1, h2 {
+  font-family: Papyrus;
+}
+
+body {
+  background-color: pink;
+}
+
+#footer /*this means footer is an id*/{
+  text-align: right;
+  border-top: 0.5px solid black;
+}
+
+#header {
+  border-bottom: 0.5px solid black;
+  padding-bottom: 3px;
+}

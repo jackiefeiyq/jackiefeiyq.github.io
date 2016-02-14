@@ -1,14 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+
 .test {
-  font-family: 'Bradley Hand';
+  font-family: 'Antic Slab';
   text-align: center;
   font-size: 25px;
   color: #A8C093;
 }
 
 body {
-  background-color: #ffffe5;
+  background-color: #898A86;
+}
+
+#wrapper {
   max-width: 888px;
-  margin: 0 auto;
+  margin: 50px auto;
+  padding: 80px 80px;
+  background-color: #EDEDED;
 }
 
 #footer /*this means footer is an id*/{
@@ -23,13 +30,13 @@ body {
 }
 
 #logo {
-  font-family: 'Minion Pro', serif;
+  font-family: 'Antic Slab';
   font-size: 30px;
   text-align: center;
   display: block;
   position: absolute;
   width: 888px;
-  top: 10px;
+  margin-top: -45px;
 }
 
 #navigation {
@@ -41,7 +48,7 @@ body {
 }
 
 #navigation li {
-  font-family: 'Minion Pro', serif;
+  font-family: 'Antic Slab';
   font-size: 20px;
   display: block;
   width: auto;
@@ -50,7 +57,7 @@ body {
 }
 
 #navigation #nav_link1 {
-  left: 10%;
+  left: 5%;
 }
 
 #navigation #nav_link2 {
@@ -62,11 +69,11 @@ body {
 }
 
 #navigation #nav_link4 {
-  right: 10%;
+  right: 5%;
 }
 
 #logo a {
-  color: #f6546a;
+  color: #00acc8;
 }
 
 body a {
